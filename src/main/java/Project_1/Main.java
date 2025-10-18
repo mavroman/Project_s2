@@ -23,7 +23,7 @@ public class Main {
 
         // создаем объект, который с этим работает
         SpaceShipFactory factory = new SpaceShipFactory(ships);
-
+        // Результат выводим в консоль
         System.out.println(factory.getTotalMonths());
     }
 }
